@@ -1,0 +1,104 @@
+.meters {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+.meters .card {
+    width: 200px;
+    height: 200px;
+    /* background-color: white;/ */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.meters .card:nth-child(1) {
+    background: linear-gradient(90deg, #ffe38d 0%, #ffb784 100%);
+}
+.meters .card:nth-child(2) {
+    background: linear-gradient(90deg, #b1ff7d 0%, #7effc7 100%);
+}
+
+.meters .card:nth-child(3) {
+    background: linear-gradient(90deg, #80fff4 0%, #7ed6ff 100%);
+}
+
+
+.meters .card:nth-child(4) {
+    background: linear-gradient(90deg, #ff7efb 0%, #ff7dd6 100%);
+}
+
+.meters .card:nth-child(5) {
+    background: linear-gradient(90deg, #ff8080 0%, #ffb47e 100%);
+}
+
+.meters .card:nth-child(6) {
+    background: linear-gradient(90deg, #ffff7c 0%, #ffb47e 100%);
+}
+
+
+.meters .card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.meters .card-header-box {
+    display: flex;
+    flex-direction: column;
+    min-width: 49%;
+    background-color: white;
+    aspect-ratio: 1/1;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.meters .card-header-box-name {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.meters .card-header-box-value {
+    font-size: 14px;
+    color: #333;
+}
+
+.meters .card button{
+    background-color: #ffffff;
+    color: rgb(33, 33, 33);
+    border: none;
+    border-radius: 15px;
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+
+.meters .card button:hover{
+    background-color: rgb(33, 33, 33);
+    color: white;
+}
+
+
+.meters .textincircle{
+    color: #333;
+    font-weight: 700;
+}

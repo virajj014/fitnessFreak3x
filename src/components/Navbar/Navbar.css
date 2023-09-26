@@ -1,0 +1,44 @@
+nav{
+    background-color: #1a1a1a;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px 0 50px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    gap: 30px;
+}
+nav img{
+    height: 40px;
+    width: auto;
+}
+
+nav a{
+    text-decoration: none;
+    color: #fff;
+    transition: 0.3s ease-in-out;
+}
+
+nav a:hover{
+    color: #ffc20e;
+}
+
+
+nav button{
+    background-color: var(--col1);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: white;
+    transition: 0.3s ease-in-out;
+    padding: 10px;
+}
