@@ -103,6 +103,9 @@ const HomeBanner2 = () => {
                   style={{
                     backgroundImage: `url(${item.imageUrl})`,
                   }}
+                  onClick={() => {
+                    window.location.href = `/workout/${item.type}`
+                  }}
                 >
                   <div className='swiper-slide-content'>
                     <h2>{item.type}</h2>

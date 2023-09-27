@@ -1,0 +1,72 @@
+.popup{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background-color: rgba(0, 0, 0, 0.753);
+}
+
+.authform{
+    display: flex;
+    /* align-items: center; */
+    background-color: black;
+    width: 50%;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.354);
+}
+
+.authform .left{
+    width: 50%;
+    /* height: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.authform .left img{
+    width: 80%;
+    object-fit: contain;
+}
+
+.authform .right{
+    /* background-color: var(--col1); */
+    width: 50%;
+    height: 100%;
+    border-left: 1px solid var(--col1);
+    padding: 20px;
+    
+}
+
+.authform .right h1{
+    color: var(--col1);
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+    margin: 10px 0px;
+}
+
+.authform .right form{
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.authform p{
+    margin: 10px 0px;
+}
+
+.authform .form_input_leftright{
+    display: flex;
+    gap: 10px;
+}
+
+.authform .right form input{
+    /* background-color: aqua; */
+}
