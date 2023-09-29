@@ -1,0 +1,52 @@
+.reportpage{
+    background-color: white;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.reportpage .s1{
+    width: 40%;
+    padding: 10px;
+}
+
+
+.reportpage .s2{
+    width: 40%;
+    padding: 10px;
+}
+
+
+.reportpage .s3{
+    width: 40%;
+    padding: 10px;
+}
+
+
+.reportpage .s4{
+    width: 40%;
+    padding: 10px;
+}
+
+.reportpage .editbutton{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    /* padding: 10px; */
+    border: none;
+    border-radius: 50%;
+    background-color: var(--col1);
+    color: white;
+    font-size: 30px;
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+
+.reportpage .editbutton:hover{
+    background-color: black;
+    color: var(--col1);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}

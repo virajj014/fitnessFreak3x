@@ -1,0 +1,84 @@
+.popupout {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+
+}
+.popupbox {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: white;
+    width: 500px;
+    max-height: 80%;
+    padding: 20px;
+    border-radius: 10px;
+overflow: scroll;
+}
+
+
+.popupbox .hrline {
+    width: 100%;
+    height: 1px;
+    background-color: var(--col1);
+    margin: 20px 0px;
+}
+
+
+.popupbox .items {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.popupbox .items .item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.popupbox .items .item h3 {
+    font-size: 13px;
+    font-weight: 500;
+    width: 100%;
+    text-align: left;
+}
+
+.popupbox .items .item button {
+    background-color: var(--col1);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 13px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+.popupbox .close {
+    background-color: black;
+    color: var(--col1);
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+    font-size: 20px;
+    cursor: pointer;
+    line-height: 0;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    transition: 0.3s;
+    z-index: 1001;
+
+}
